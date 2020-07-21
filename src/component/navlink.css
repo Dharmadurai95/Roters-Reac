@@ -1,0 +1,20 @@
+.NavLink{
+  text-align: center;
+  margin:0px;
+}
+.NavLink nav{
+   
+    margin:0px;
+    padding: 5px;
+    background-color:rgb(69, 122, 143);
+    color:black;
+}
+.NavLink ul{
+    display:inline-flex;
+    list-style: none;
+    display: inline;
+  
+}
+.NavLink p{
+    text-decoration:none;
+}

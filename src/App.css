@@ -1,38 +1,41 @@
 .App {
   text-align: center;
+  margin:0px;
+  background-color:rgba(0, 255, 255, 0.198);
+  min-height:800px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  text-decoration: none;
+  padding: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li{
+  color:rgb(13, 100, 240);
+  background-color:rgba(55, 219, 197, 0.637);
+  display:flex;
+  flex-flow: row;
+  margin:0 5px 5px 0px;
+  padding:5px;
+  width: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.active{
+  color:rgb(233, 10, 28);
 }
-
-.App-link {
-  color: #61dafb;
+.content {
+  text-align: center;
+  margin:200px auto;
+  color: rgb(98, 94, 94);
+  font-size:1.5rem;
 }
+.newList{
+background-color:transparent;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.newList input,button{
+  background-color:transparent;
+  width:400px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.newList input:focus{
+  background-color: rgb(176, 213, 235);
+  outline: none;
 }
